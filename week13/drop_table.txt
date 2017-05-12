@@ -1,0 +1,5 @@
+--Run Command C:\Users\WORKSHOP-2\Desktop\csy_1026\week13\drop_table.txt
+
+DROP TABLE students;
+
+ALTER TABLE students 

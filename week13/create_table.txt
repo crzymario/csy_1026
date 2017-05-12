@@ -30,5 +30,16 @@ mentor_id NUMBER(3),
 contact_no VARCHAR2(15),
 rate NUMBER(5,2) );
 
+--CREATING A NEW TABLE STUDENTS 
+CREATE TABLE students (
+student_id NUMBER(5),
+student_fname VARCHAR2(20),
+student_surname VARCHAR2(26),
+address VARCHAR2(20),
+University VARCHAR2(15) );
+
+--adding a new field to the table students
+ALTER TABLE students ADD (
+DOB DATE);
 
 
