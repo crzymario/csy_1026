@@ -1,0 +1,6 @@
+--run command @D:\database\add_constraints.txt
+
+//adding constraint in the student table
+ALTER TABLE students
+ADD CONSTRAINT pk_student_id
+PRIMARY KEY(student_id);

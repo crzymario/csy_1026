@@ -1,0 +1,17 @@
+--RunCommand @D:\database\create_sql.txt
+
+--creating a table 
+--command to create a table for students
+CREATE TABLE students
+student_id NUMBER(4),
+f_name VARCHAR2(20),
+l_name VARCHAR2(25),
+cont_no VARCHAR2(15),
+email_id VARCHAR2(30) NOT NULL );
+
+--command to create a table for teachers
+CREATE TABLE teachers(
+teacher_id NUMBER(3),
+f_name VARCHAR2(20),
+l_name VARCHAR2(25),
+gender CHAR DEFAULT 'M');
