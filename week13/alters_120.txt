@@ -1,7 +1,26 @@
-//Run command @D:\database\week13\alters_120.txt
+//Run command C:\Users\WORKSHOP-2\Desktop\csy_1026\week13\alters_120.txt
 
+/*
 //MODIFYING THE TABLE
 //COMMANDS TO MODIFY THE TABLE
 ALTER TABLE sites MODIFY(
 location VARCHAR2(40));
 
+
+
+ALTER TABLE trainers MODIFY(
+contact_no VARCHAR2(15) NOT NULL );
+
+*/
+
+ALTER TABLE sites
+ADD CONSTRAINT pk_sites
+PRIMARY KEY (site_id);
+
+ALTER TABLE subject_areas
+ADD CONSTRAINT pk_subjects
+PRIMARY KEY (subject_id);
+
+ALTER TABLE trainers
+ADD CONSTRAINT pk_trainers
+PRIMARY KEY (trainer_id);

@@ -1,4 +1,6 @@
-//run command 	
+//run command C:\Users\WORKSHOP-2\Desktop\csy_1026\week13\create_table.txt
+
+/*
 
 //CREATING A TABLE
 //COMMANDS TO CREATE TABLE
@@ -10,3 +12,23 @@ site_name VARCHAR2(20));
 //COMMANDS TO CHANGE THE TABLE
 ALTER TABLE sites ADD(
 location VARCHAR2(30));
+
+
+
+-- creating a table
+CREATE TABLE subject_areas(
+subject_id NUMBER(4),
+subject_name VARCHAR2(30),
+description VARCHAR2(50));
+*/
+--creating a table for trainers
+CREATE TABLE trainers(
+trainer_id NUMBER(3),
+t_fname VARCHAR2(20),
+t_surname VARCHAR2(25),
+mentor_id NUMBER(3),
+contact_no VARCHAR2(15),
+rate NUMBER(5,2) );
+
+
+
